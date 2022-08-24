@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(254, 232, 218);
+  color: #393939;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+
+  /* will center everything that doesn't have a width set */
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  color: darkgrey;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 50px;
+}
+
+h1 {
+  color: rgb(235, 125, 255);
+  font-family: "Silkscreen", cursive;
+  font-size: 5.625rem;
+  font-weight: normal;
+  margin: 50px auto 0 auto;
+
+  /* percentages and em inherit each other, rem will ignore parent settings */
+  /* circle shorthand */ /*can use rem here too, but px will be more accurate */
+  /* 1 em = 16px or 100% = 16px, so 90px/16 = 5.625em or 562.5% */
+  /* line height single value without any units */
+}
+
+h2 {
+  color: rgb(205, 110, 222);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: rgb(178, 97, 192);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: rgb(165, 219, 255);
+  padding-top: 100px;
+  position: relative;
+}
+
+.profile {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  width: 200px;
+}
+
+.main-img {
+  position: relative;
+  width: 300px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+  width: 170px;
+}
+
+.hello-img {
+  width: 25%;
+}
+
+.system-img {
+  float: left;
+  padding: 30px;
+  width: 25%;
+}
+
+.music-img {
+  float: right;
+  padding: 30px;
+  width: 25%;
+
+  /* clear is like anti-float - text **can't** wrap in that direction */
+}
+
+.contact-me {
+  line-height: 2;
+  margin-bottom: 100px;
+}
+
+.attribute-links {
+    font-size: .85rem;
+}
+
+.copyright {
+    color: darkgrey;
+    font-size: .75rem;
+    padding: 20px 0;
+}
+
+.bottom-container {
+  background-color: rgb(165, 219, 255);
+  padding: 50px 0 20px;
+  font-size: 1.5rem;
+}
+
+a {
+  color: rgb(235, 125, 255);
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.btn {
+  background: #d934a5;
+  background-image: -webkit-linear-gradient(top, #d934a5, #62bdf5);
+  background-image: -moz-linear-gradient(top, #d934a5, #62bdf5);
+  background-image: -ms-linear-gradient(top, #d934a5, #62bdf5);
+  background-image: -o-linear-gradient(top, #d934a5, #62bdf5);
+  background-image: linear-gradient(to bottom, #d934a5, #62bdf5);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #cfcfcf;
+  background-image: -webkit-linear-gradient(top, #cfcfcf, #949494);
+  background-image: -moz-linear-gradient(top, #cfcfcf, #949494);
+  background-image: -ms-linear-gradient(top, #cfcfcf, #949494);
+  background-image: -o-linear-gradient(top, #cfcfcf, #949494);
+  background-image: linear-gradient(to bottom, #cfcfcf, #949494);
+  text-decoration: none;
+}
